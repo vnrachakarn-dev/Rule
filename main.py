@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 
 # ====== ใส่ TOKEN จาก Environment ======
-TOKEN = os.getenv("MTQ3MTAzOTE1ODAyODk5MjU4N.O417JXZyKORE")
+TOKEN = os.getenv("TOKEN")
 
 # ====== ตั้งค่า BOT ======
 intents = discord.Intents.all()
@@ -97,4 +97,4 @@ async def on_ready():
 
 
 # ====== RUN ======
-bot.run(MTQ3MTAz.7MU4186HGPyWuYd-fO417JXZyKORE)
+bot.run(TOKEN)
